@@ -3,12 +3,12 @@ import { async, ComponentFixture, TestBed, fakeAsync, inject } from '@angular/co
 
 import { ProjectComponent } from './project.component';
 import { ProjectService } from '../../services/project.service';
-import { ApiService } from '../../shared/services/api.service';
+import { ApiService } from '../../services/api.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ModalLookupComponent } from '../../shared/components/modal-lookup/modal-lookup.component';
 import { ModalModule } from 'ngx-bootstrap';
-import { PROJECTS } from '../../mock-backend/mock-data';
+import { PROJECTS } from '../../mocktestdata/projects-data';
 import { of } from 'rxjs';
 
 describe('ProjectComponent', () => {

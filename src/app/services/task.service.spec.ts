@@ -1,4 +1,4 @@
-import { ApiService } from '../shared/services/api.service';
+import { ApiService } from '../services/api.service';
 import { TestBed, inject, fakeAsync, tick } from '@angular/core/testing';
 
 import { TaskService } from './task.service';

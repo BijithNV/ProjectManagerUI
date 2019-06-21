@@ -3,7 +3,7 @@ import { ProjectService } from './../../../services/project.service';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AddProjectComponent } from './add-project.component';
-import { ApiService } from '../../../shared/services/api.service';
+import { ApiService } from '../../../services/api.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ModalModule } from 'ngx-bootstrap';
